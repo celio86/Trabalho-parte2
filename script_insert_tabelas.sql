@@ -64,7 +64,7 @@ VALUES
 (16, 2, 'like'), 
 (17, 3, 'like'), 
 (8, 1, 'dislike'), 
-(22, 8, 'like');
+(10, 8, 'like');
 
 select * from interacao
 
