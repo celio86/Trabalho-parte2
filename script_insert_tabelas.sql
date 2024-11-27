@@ -55,15 +55,15 @@ VALUES
 INSERT INTO Interacao (postagem_id, usuario_id, tipo) 
 VALUES 
 (9, 3, 'like'), 
-(14, 10, 'like'), 
-(12, 7, 'dislike'), 
-(9, 3, 'like'), 
-(15, 1, 'like'), 
-(18, 4, 'dislike'), 
-(16, 2, 'like'), 
-(17, 3, 'like'), 
-(8, 1, 'dislike'), 
-(10, 8, 'like');
+(4, 10, 'like'), 
+(2, 7, 'dislike'), 
+(1, 3, 'like'), 
+(5, 1, 'like'), 
+(8, 4, 'dislike'), 
+(6, 2, 'like'), 
+(7, 3, 'like'), 
+(10, 1, 'dislike'), 
+(3, 8, 'like');
 
 
 
