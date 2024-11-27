@@ -50,7 +50,6 @@ VALUES
 (9, 'Foto de um jantar especial.', 'imagem', LOAD_FILE('C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\imagens\jantar1.png')),
 (10, 'Céu ao entardecer.', 'imagem', LOAD_FILE('C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\imagens\ceu1.png'));
 
-select * from postagem
 
 -- Inserção de dados na tabela Interacao
 INSERT INTO Interacao (postagem_id, usuario_id, tipo) 
@@ -66,7 +65,7 @@ VALUES
 (8, 1, 'dislike'), 
 (10, 8, 'like');
 
-select * from interacao
+
 
 -- Inserção de dados na tabela Comentario
 INSERT INTO Comentario (postagem_id, usuario_id, conteudo, comentario_pai_id) 
@@ -105,7 +104,6 @@ VALUES
 ('Jogos', 'Games e diversão'),
 ('Natureza', 'Amor pela natureza e sustentabilidade');
 
-select * from grupo
 -- Inserção de dados na tabela Membro_Grupo
 INSERT INTO Membro_Grupo (grupo_id, usuario_id, funcao) 
 VALUES 
