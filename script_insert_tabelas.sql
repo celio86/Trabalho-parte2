@@ -72,12 +72,12 @@ INSERT INTO Comentario (postagem_id, usuario_id, conteudo, comentario_pai_id)
 VALUES 
 (8, 1, 'Ótima postagem!', NULL), 
 (9, 3, 'Concordo!', null), 
-(11, 6, 'Adorei a foto.', NULL), 
-(19, 5, 'Muito bom!', NULL), 
-(14, 10, 'Que interessante.', NULL), 
-(15, 1, 'Adoro isso.', null), 
-(24, 10, 'Muito útil!', NULL), 
-(17, 3, 'Bom dia pra você também.', NULL), 
+(1, 6, 'Adorei a foto.', NULL), 
+(9, 5, 'Muito bom!', NULL), 
+(4, 10, 'Que interessante.', NULL), 
+(5, 1, 'Adoro isso.', null), 
+(4, 10, 'Muito útil!', NULL), 
+(7, 3, 'Bom dia pra você também.', NULL), 
 (8, 1, 'Parece ótimo!', NULL), 
 (9, 3, 'Excelente trabalho!', NULL);
 
